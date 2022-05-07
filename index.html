@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/png" href="./assets/icons/sulanoLogo.png" />
+  <title>Sulano App</title>
+
+</head>
+
+<body>
+  <main class="flex flex-col md:flex-row h-auto md:h-screen w-screen bg-gray-50 justify-between">
+    <section class="flex py-10 md:py-20 flex-col w-full md:w-1/2  px-4 md:px-20 h-full relative   justify-center bg-teal-50">
+      <h1 class="text-5xl md:text-7xl text-center md:text-left py-2 ">Sulano</h1>
+      <h3 class="text-3xl md:text-5xl text-center md:text-left  py-4 ">A Memory Training Application</h3>
+        <p class="text-2xl text-center md:text-left  pt-8 pb-12">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, explicabo.</p>
+        <div class="flex flex-row gap-2 pb-10 md:pb-20">
+          <a class="w-1/2 md:w-52 px-2 h-14 md:h-16 border rounded-xl border-black border-2 flex flex-row justify-around items-center"
+            href="#">
+            <img src="./assets/icons/logo-apple.svg" class="h-8 md:h-12">
+            <div class="flex flex-col justify-center">
+              <span class="text-xs -mb-1">Download on the</span>
+              <span class=" text-md md:text-3xl">App Store</span>
+            </div>
+          </a>
+          <a  href="https://play.google.com/store/apps/details?id=com.sulano" class=" w-1/2 md:w-52 px-2  h-14 md:h-16 border rounded-xl border-black border-2 flex flex-row justify-around items-center"
+            href="#">
+            <img src="./assets/icons/logo-google-playstore.svg" class="h-8 md:h-12">
+            <div class="flex flex-col justify-center">
+              <span class="text-xs -mb-1">Download on the</span>
+              <span class="text-md md:text-xl md:text-2xl">Google Play</span>
+            </div>
+          </a>
+        </div>
+        <div class="hidden md:flex absolute h-[90vh] border-l-2 border-black border-gray-200  right-0"></div>
+        <footer class="hidden md:flex absolute w-[95%] bottom-10  justify-around md:justify-start items-center text-xl">
+          <a href="mailto:sulano.app@gmail.com" class="text-base text-md px-2 md:px-5">Contact Us</a>
+          <a href="./privacy.html" class="text-base text-md px-2 md:px-5">Privacy</a>
+          <a href="./terms-of-service.html" class="text-base text-md px-2 md:px-5">Terms of services</a>
+        </footer>
+    </section>
+    <section class="flex flex-row justify-center  items-center md:bg-green-200 md:w-1/2 md:pt-30">
+      <img class="h-64 md:h-[80vh] -rotate-12 z-50" src='./assets/screen1Web.png'>
+      <img class="h-64 md:h-[60vh] rotate-12 " src='./assets/screen2Web.png'>
+    </section>
+    <footer class="flex md:hidden  w-[95%] py-10 pt-14 justify-around md:justify-start items-center text-xl">
+      <a href="mailto:sulano.app@gmail.com" class="text-base text-md px-2 md:px-5">Contact Us</a>
+      <a href="./privacy.html" class="text-base text-md px-2 md:px-5">Privacy</a>
+      <a href="./terms-of-service.html" class="text-base text-md px-2 md:px-5">Terms of services</a>
+    </footer>
+  </main>
+
+</body>
+
+</html>
